@@ -1,0 +1,99 @@
+:root {
+  --clr-primary: rgb(242, 98, 34);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", "Roboto", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.orange {
+  color: var(--clr-primary) !important;
+}
+
+.admin-chat {
+  align-self: flex-end;
+}
+
+.admin-chat p {
+  background-color: var(--clr-primary);
+  padding: 30px 15px;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.collab-chat {
+  align-self: flex-start;
+}
+
+.collab-chat p {
+  border: 2px var(--clr-primary) solid;
+  padding: 30px 15px;
+  color: black;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.sender {
+  margin-right: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.chat-date {
+  color: #696969;
+  font-size: 0.9rem;
+}
+
+.sla::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.sla::-webkit-datetime-edit-ampm-field {
+  display: none;
+}
+
+.sla::-webkit-datetime-edit-hour-field,
+.sla::-webkit-datetime-edit-minute-field {
+  padding: 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove arrows from number input for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.disabled-link {
+  pointer-events: none;
+  color: grey;
+  text-decoration: none;
+  background-color: #696969;
+}

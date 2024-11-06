@@ -1,0 +1,99 @@
+{
+  "name": "fix-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/react": "^4.6.0",
+    "@emotion/core": "^10.3.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.0.3",
+    "@fullcalendar/daygrid": "^6.0.3",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/react": "^6.0.4",
+    "@fullcalendar/scrollgrid": "^6.1.4",
+    "@microsoft/signalr": "^7.0.9",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.7",
+    "@mui/system": "^5.16.7",
+    "@mui/utils": "^5.16.6",
+    "@mui/x-data-grid": "^6.11.1",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@ungap/structured-clone": "^1.2.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "chart.js": "^4.1.2",
+    "date-fns": "^2.29.3",
+    "fix-master": "file:",
+    "formik": "^2.2.9",
+    "libphonenumber-js": "^1.10.12",
+    "moment": "^2.29.4",
+    "mui-datatables": "^4.3.0",
+    "notistack": "^2.0.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-async-script-loader": "^0.3.0",
+    "react-bootstrap": "^2.7.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-collapsible": "^2.8.4",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^18.1.0",
+    "react-dropzone": "^14.2.3",
+    "react-flags-select": "^2.2.3",
+    "react-google-charts": "^4.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.15.1",
+    "react-pdf": "5",
+    "react-pure-loaders": "^3.0.1",
+    "react-query": "^3.39.3",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-share": "^5.1.0",
+    "react-step-progress-bar": "^1.0.3",
+    "react-timer-hook": "^3.0.5",
+    "react-use": "^17.5.1",
+    "recordrtc": "^5.6.2",
+    "redux-thunk": "^2.4.1",
+    "slate": "^0.110.2",
+    "slate-html-serializer": "^0.8.13",
+    "slate-react": "^0.110.3",
+    "styled-components": "^5.3.5",
+    "update-browserslist-db": "^1.0.13",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

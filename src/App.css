@@ -1,0 +1,100 @@
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.card-error {
+  color: var(--clr-primary);
+}
+
+.styleLink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  position: relative;
+}
+
+.mobile-only {
+  display: block;
+}
+
+/* For PDF Viewer */
+.pdf-div,
+.video-div {
+  padding: 50px;
+  background-color: #dedede;
+  margin-top: 50px;
+}
+.terms-pdf {
+  /* padding: 10px; */
+  background-color: #dedede;
+}
+canvas.react-pdf__Page__canvas {
+  margin-bottom: 20px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* For REact Modal */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+.ReactModal__Content::-webkit-scrollbar-track {
+  background: #eee; /* color of the tracking area */
+}
+.ReactModal__Content::-webkit-scrollbar-thumb {
+  background-color: var(--clr-primary); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid #eee;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.interview-hidden {
+  display: none;
+}
+.interview-show {
+  display: block;
+}
+.MuiTableBody-root td {
+  border: 1px solid black !important;
+  text-align: center !important;
+}
+.MuiTableRow-root th {
+  border: 1px solid black !important;
+  border-bottom: none !important;
+  text-align: center;
+  background-color: var(--clr-primary);
+  color: white;
+  font-size: 1.1rem !important;
+}
+.MuiTableRow-root th span {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem !important;
+}
+.MuiTableRow-root th span button {
+  font-size: 1.1rem !important;
+}

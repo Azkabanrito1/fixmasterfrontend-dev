@@ -1,0 +1,8 @@
+<svg width="96" height="94" viewBox="0 0 96 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.9">
+<ellipse opacity="0.25" cx="48" cy="47" rx="48" ry="47" fill="#FCD8C8"/>
+<path d="M27 28L40.3458 32.9914V66L27 60.0965V28Z" fill="var(--clr-primary)"/>
+<path d="M54.6123 28L41.2622 32.9914V66L54.608 60.0922V28H54.6123Z" fill="var(--clr-primary)"/>
+<path d="M55.4263 28L68.7721 32.9914V66L55.4263 60.0965V28Z" fill="var(--clr-primary)"/>
+</g>
+</svg>
